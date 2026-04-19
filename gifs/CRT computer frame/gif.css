@@ -1,11 +1,33 @@
-<!-- You may delete this line of instruction once you have read it. Place this code wherever you want the graphic displayed. -->
+<!-- You may delete this line of instruction once you have read it. Place this at the top of your page or in a separate .css file, but make sure you set the paths up right in the HTML. -->
 
-<div class="crt-wrapper">
+.crt-wrapper {
+    position: relative;
+    display: inline-block;
+}
 
-    <!-- THIS is your “screen content” -->
-    <img class="crt-content" src="your-image.gif" alt="content">
+/* THE CONTENT (GIF / IMAGE / VIDEO) */
+.crt-content {
+    position: absolute;
 
-    <!-- This is the overlay frame -->
-    <img class="crt-frame" src="crt_frame.png" alt="CRT frame">
+    /* screen positioning (you will tweak these) */
+    left: 189px;
+    top: 50px;
 
-</div>
+    width: 156px;   /* screen width */
+    height: 166px;   /* screen height */
+
+    object-fit: cover;
+
+    z-index: 1;
+}
+
+/* THE FRAME (always on top) */
+.crt-frame {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    z-index: 2;
+    pointer-events: none; /* allows clicking through frame */
+}
