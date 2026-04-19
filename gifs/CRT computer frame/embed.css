@@ -1,0 +1,36 @@
+<!-- You can delete this line of instruction once you read it. This code is meant for embedding a YouTube video within the frame.-->
+
+.crt-wrapper {
+    position: relative;
+    width: 600px;   /* adjust to your frame size */
+    max-width: 100%;
+}
+
+/* the content sits "inside" the screen */
+.crt-content {
+    position: absolute;
+
+    /* THESE TWO CONTROL SCREEN POSITION */
+    left: 189px;   /* your coords X */
+    top: 50px;     /* your coords Y */
+
+    width: 156px;  /* screen width (345 - 189) */
+    height: 166px; /* screen height (216 - 50) */
+
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* iframe needs different handling */
+iframe.crt-content {
+    border: none;
+}
+
+/* CRT frame sits on top */
+.crt-frame {
+    position: relative;
+    width: 100%;
+    display: block;
+    z-index: 2;
+    pointer-events: none; /* lets clicks pass through to video */
+}
