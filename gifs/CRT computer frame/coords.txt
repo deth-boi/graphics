@@ -1,0 +1,1 @@
+<map="image-map"><area target="" alt+"screen" title="screen" href="" coords="189,50,345,216" shape="rect"></map>
