@@ -10,4 +10,6 @@ The paths for these files should be set up to always lead directly to the file. 
 
 ../ is how you go back one folder. / is how you go forward one or go to a page within the same containing folder as the file you are currently editing.
 
+If you insist on changing the file names of things I have named, please just make sure that the path is right. Make sure that things are upper and lowercase if that's how they are stored. Things I feel like I shouldn't have to explain, but you never know.
+
 If you want to have journals or blogs or whatever types of entries, I recommend putting these all in their own folders and naming the files something like "entry01", "entry02" and so on. This will make your life much easier in the long run.
