@@ -1,0 +1,13 @@
+Setting up paths is highly recommended.
+
+When you first set up your website using neocities, nekoweb or anything else like that they will already have a blank index.html, a blank style.css, and some other junk that doesn't really matter.
+
+If you intend to have any images on your site, the first thing you want to do is set up your media folder. Do not try to host MP3s here because they will delete your site over DMCA bullshit. Don't even try to host your own music that you made yourself.
+
+Inside your media folder, you can organize this however you like, but since you are here to use graphics you should at the very least make a folder called graphics. You can organize and organize shit to your hearts content—make a folder specifically for gifs, make a folder specifically for images that will display in a certain widget, make a folder for album art you want to display in one of those CD collection things...whatever. Make this folder.
+
+The paths for these files should be set up to always lead directly to the file. That means if you want image01.jpg to show up on a page, the path needs to be <img src="media/image.jpg" alt="description of image">. If you want image01.jpg to display on a page that is contained within a different folder, let's say... a blog page, you would have the path be <img src="../media/image01.jpg" alt="description of image">.
+
+../ is how you go back one folder. / is how you go forward one or go to a page within the same containing folder as the file you are currently editing.
+
+If you want to have journals or blogs or whatever types of entries, I recommend putting these all in their own folders and naming the files something like "entry01", "entry02" and so on. This will make your life much easier in the long run.
