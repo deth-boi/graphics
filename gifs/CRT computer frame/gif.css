@@ -1,0 +1,11 @@
+<!-- You may delete this line of instruction once you have read it. Place this code wherever you want the graphic displayed. -->
+
+<div class="crt-wrapper">
+
+    <!-- THIS is your “screen content” -->
+    <img class="crt-content" src="your-image.gif" alt="content">
+
+    <!-- This is the overlay frame -->
+    <img class="crt-frame" src="crt_frame.png" alt="CRT frame">
+
+</div>
