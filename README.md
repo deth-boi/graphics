@@ -1,6 +1,6 @@
 Follow these instructions exactly for pretty much everything:
 
-<script> The Javascript goes at the bottom of your page. Do not make a separate .js file like you would a style.css file. Things will get way too fucking confusing. </script>
+The Javascript goes at the bottom of your page. Do not make a separate .js file like you would a style.css file. Things will get way too fucking confusing. These parts should be marked by <script></script> brackets.
 
 If you are going to put .css on every single page you create, make sure it is at the top. You can also create a separate .css file for certain pages or batches of pages if you would like to try and keep things more organized. As long as you put <link rel="stylesheet" href="style.css">  in the <head> of your HTML. It will look something like this:
 
